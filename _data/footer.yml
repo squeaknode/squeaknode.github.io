@@ -16,6 +16,10 @@
     link: https://twitter.com/squeaknode/
     social_icon: Twitter
     new_window: true
+  - name: Github
+    link: https://github.com/yzernik/squeaknode
+    social_icon: Github
+    new_window: true
   - name: RSS
     link: /feed.xml
     social_icon: RSS
