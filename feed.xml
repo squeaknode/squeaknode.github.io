@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://squeaknode.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://squeaknode.org/" rel="alternate" type="text/html" /><updated>2021-11-19T00:37:21+00:00</updated><id>https://squeaknode.org/feed.xml</id><title type="html">Squeaknode website</title><subtitle>Website for squeaknode project.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">The history of marketing</title><link href="https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing/" rel="alternate" type="text/html" title="The history of marketing" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing</id><content type="html" xml:base="https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing/">&lt;p&gt;The beginnings of digital marketing technology can be traced back to the 1980’s, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90’s it all became clear.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://squeaknode.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://squeaknode.org/" rel="alternate" type="text/html" /><updated>2021-11-19T00:51:24+00:00</updated><id>https://squeaknode.org/feed.xml</id><title type="html">Squeaknode website</title><subtitle>Website for squeaknode project.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">Getting started with squeaknode</title><link href="https://squeaknode.org/squeaknode/guide/2021/11/18/getting-started/" rel="alternate" type="text/html" title="Getting started with squeaknode" /><published>2021-11-18T00:00:00+00:00</published><updated>2021-11-18T00:00:00+00:00</updated><id>https://squeaknode.org/squeaknode/guide/2021/11/18/getting-started</id><content type="html" xml:base="https://squeaknode.org/squeaknode/guide/2021/11/18/getting-started/">&lt;p&gt;Squeaknode is a peer-to-peer social media app that lets you make posts and view posts from other people, incentivized with lightning payments.&lt;/p&gt;
+
+&lt;p&gt;This guide will go over some of the things you can do with the app&lt;/p&gt;
+
+&lt;h2 id=&quot;set-up-a-signing-profile&quot;&gt;Set up a signing profile&lt;/h2&gt;
+&lt;p&gt;The first thing you might want to do is create a signing profile. This profile allows you to create squeaks, and it will be your identity that other users will see attached to your squeaks. You can create as many signing profiles as you want.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to the profiles page&lt;/li&gt;
+  &lt;li&gt;Click the “Create Signing Profile” button&lt;/li&gt;
+  &lt;li&gt;Enter any name that you want for your profile and submit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/4dcbe92e41f407b37d5b3b850d0132ecbd2a2846.png&quot; alt=&quot;Screenshot from 2021-11-11 04-15-20&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;make-a-squeak&quot;&gt;Make a squeak&lt;/h2&gt;
+&lt;p&gt;After you have a signing profile, you can now make a squeak.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to the timeline page&lt;/li&gt;
+  &lt;li&gt;Click on the button in the bottom right corner to open the “Make Squeak” dialog&lt;/li&gt;
+  &lt;li&gt;Select the signing profile from the form selection&lt;/li&gt;
+  &lt;li&gt;Enter any text (and emojis) that you want, up to 280 characters and submit&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/e8f76e492d36a8313a7a5734c7ad25214075a0d9.png&quot; alt=&quot;Screenshot from 2021-11-11 04-17-41&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;connect-to-other-nodes&quot;&gt;Connect to other nodes&lt;/h2&gt;
+&lt;p&gt;After you have created some squeaks, you may be wondering if anyone else can read them. Other users will only be able to download your squeaks if their node is connected to your node (or if they connect to another node that already has copies of your squeaks).&lt;/p&gt;
+
+&lt;p&gt;You can establish connections to other nodes in two ways:
+1) open a connection to another node using its external address
+2) share your node’s external address and let other nodes connect to you&lt;/p&gt;
+
+&lt;p&gt;Once a connection is established, it doesn’t matter which node started the connection, inbound and outbound connections are treated the same.&lt;/p&gt;
+
+&lt;h4 id=&quot;make-an-outbound-connection&quot;&gt;Make an outbound connection&lt;/h4&gt;
+&lt;p&gt;If you know the external address of another squeaknode, you can connect to it directly:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to the “Peers” page&lt;/li&gt;
+  &lt;li&gt;Click on the “Connect Peer” button&lt;/li&gt;
+  &lt;li&gt;Enter the external address host in the input form&lt;/li&gt;
+  &lt;li&gt;Enter the external address port in the input form, if it is anything other than the default (8555)&lt;/li&gt;
+  &lt;li&gt;Check the “Use Tor” toggle if the address is an onion address&lt;/li&gt;
+  &lt;li&gt;Submit the dialog form&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After a few seconds, if the connection is successful, you should see the newly connected peer in the list of connected peers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/268bc4e9f8e10d26e1f6d2516c3d349b256eddfb.png&quot; alt=&quot;Screenshot from 2021-11-11 04-24-52&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;accept-inbound-connections&quot;&gt;Accept inbound connections&lt;/h4&gt;
+&lt;p&gt;You can also share your external address, and allow other nodes to make connections to you.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Go to the “Peers” page&lt;/li&gt;
+  &lt;li&gt;Click on the “Show External Address” button&lt;/li&gt;
+  &lt;li&gt;Copy the content of the displayed address and share it wherever you want&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now anyone who knows this external address can use it to make a connection from their squeaknode to yours.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/6f3fa0563c88917bf4f48522225893e5c1135030.png&quot; alt=&quot;Screenshot from 2021-11-11 04-31-09&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;download-squeaks-from-other-users&quot;&gt;Download Squeaks from other users&lt;/h2&gt;
+&lt;p&gt;Now that you have some peer connections open, you can begin to download squeaks from other users onto your timeline.&lt;/p&gt;
+
+&lt;p&gt;The squeaknode timeline only shows squeaks from profiles that you are following. You can begin to follow profiles by adding contacts.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ask a friend (who is running squeaknode) to share with you the address of their signing profile&lt;/li&gt;
+  &lt;li&gt;Go to the “Profiles” page&lt;/li&gt;
+  &lt;li&gt;Click on the “Add Contact” button&lt;/li&gt;
+  &lt;li&gt;Enter the name of the person&lt;/li&gt;
+  &lt;li&gt;Enter the address that was provided&lt;/li&gt;
+  &lt;li&gt;Submit the form to create the new contact profile&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/b02a93fb2c516c043f645f72ed87ef44fb445a5a.png&quot; alt=&quot;Screenshot from 2021-11-11 04-43-20&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the contact profile is created, your squeaknode will begin to download squeaks from all of your connected peers that match were authored by that profile. If you go to the “Timeline” page, you should see the squeaks in the timeline, if any were downloaded.&lt;/p&gt;
+
+&lt;h2 id=&quot;buying-squeaks&quot;&gt;Buying squeaks&lt;/h2&gt;
+&lt;p&gt;Now you have some squeaks from other users visible in your timeline, but they are locked, so you can’t read them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2e1de521f24d4e60a43bb273ffd7242c02169979.png&quot; alt=&quot;Screenshot from 2021-11-11 04-49-13&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You unlock squeaks by making Lightning payments to the peers that are selling them.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click on the squeak that you want to unlock&lt;/li&gt;
+  &lt;li&gt;Click on the “Buy To Unlock” button in the middle of the squeak&lt;/li&gt;
+  &lt;li&gt;When the dialog opens, select one of the offers from the selection&lt;/li&gt;
+  &lt;li&gt;Check the price of the squeak, and if you agree to pay that amount, click the “Buy Squeak” button&lt;/li&gt;
+  &lt;li&gt;Wait a few seconds for the Lightning payment to complete, and then the squeak should unlock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/e9b0aa6079af9788e680dcd94939feec837b1ef3.png&quot; alt=&quot;Screenshot from 2021-11-11 04-52-34&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you should see the unlocked content of the squeak&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/148406198d39ba350074c2d64837e7a22c8bef66.png&quot; alt=&quot;Screenshot from 2021-11-11 04-54-57&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;opening-a-lightning-channel-directly-to-a-seller&quot;&gt;Opening a Lightning channel directly to a seller&lt;/h4&gt;
+&lt;p&gt;Sometimes the lightning payment will fail. This usually happens because:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;You do not have a route to the payee&lt;/li&gt;
+  &lt;li&gt;You do not have enough liquidity in your route&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you want to open a Lightning channel directly to the seller node, you can do that.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Click on the “Buy To Unlock” button in the middle of the squeak&lt;/li&gt;
+  &lt;li&gt;When the dialog opens, select one of the offers from the selection&lt;/li&gt;
+  &lt;li&gt;Click on the link on the “Lightning Node” section of the offer display to go to the “Lightning Node” page&lt;/li&gt;
+  &lt;li&gt;Click on the “Connect Peer” button to ensure that your Lightning node is connected to the seller Lightning node.&lt;/li&gt;
+  &lt;li&gt;Click on the “Open Channel” button to open the “Open Channel” dialog&lt;/li&gt;
+  &lt;li&gt;Enter whatever amount you want to fund the channel and for the transaction fee and submit.&lt;/li&gt;
+  &lt;li&gt;Now wait for the Bitcoin transactions to complete for the channel to finish opening.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/5b19df1dcf5047cbce2e12dc44b05b9c35d6d932.png&quot; alt=&quot;Screenshot from 2021-11-11 05-05-10&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the channel finishes opening, you should be able to complete the payment without any problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;connect-your-twitter-account&quot;&gt;Connect your Twitter account&lt;/h2&gt;
+&lt;p&gt;If you are a Twitter user, you can mirror your tweets automatically to your squeaknode profile.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Obtain a “bearer token” from Twitter (you have to create a Twitter developer account: https://developer.twitter.com/en/apply-for-access)&lt;/li&gt;
+  &lt;li&gt;Go to the “Twitter” page in the squeaknode app&lt;/li&gt;
+  &lt;li&gt;Click the “Set Bearer Token” button and copy the bearer token from your Twitter Developer account&lt;/li&gt;
+  &lt;li&gt;Click the “Add Twitter Account” button and enter your Twitter handle, and select the signing profile where you want it to be mirrored&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After you set your bearer token and add your Twitter handle, your squeaknode will be configured to automatically make new squeaks for any new tweets that are created.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/2730a2c5e8874a74e70a8ab72879ae2f8989f4b5.png&quot; alt=&quot;Screenshot from 2021-11-11 05-10-52&quot; /&gt;
+&lt;img src=&quot;/images/1c67321847551a6e852d976f1acae3e225e161a7.png&quot; alt=&quot;Screenshot from 2021-11-11 05-12-50&quot; /&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><category term="squeaknode" /><category term="guide" /><summary type="html">Squeaknode is a peer-to-peer social media app that lets you make posts and view posts from other people, incentivized with lightning payments.</summary></entry><entry><title type="html">The history of marketing</title><link href="https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing/" rel="alternate" type="text/html" title="The history of marketing" /><published>2020-08-12T00:00:00+00:00</published><updated>2020-08-12T00:00:00+00:00</updated><id>https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing</id><content type="html" xml:base="https://squeaknode.org/marketing/2020/08/12/the-history-of-marketing/">&lt;p&gt;The beginnings of digital marketing technology can be traced back to the 1980’s, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90’s it all became clear.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1146&quot; alt=&quot;Man&quot; /&gt;&lt;/p&gt;
 
@@ -22,38 +162,7 @@ This division parallels the distinction between the history of economic thought 
 
 &lt;p&gt;The following sections discuss both approaches to the history of marketing, closing with a debate about the standard chronology of marketing, a widely known hypothesis about the history of marketing, but one that historians in the marketing field have challenged.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/History_of_marketing&quot;&gt;source&lt;/a&gt;: Wikipedia&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><category term="marketing" /><summary type="html">The beginnings of digital marketing technology can be traced back to the 1980’s, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90’s it all became clear.</summary></entry><entry><title type="html">Definition of sales</title><link href="https://squeaknode.org/sales/2020/08/06/definition-of-sales/" rel="alternate" type="text/html" title="Definition of sales" /><published>2020-08-06T00:00:00+00:00</published><updated>2020-08-06T00:00:00+00:00</updated><id>https://squeaknode.org/sales/2020/08/06/definition-of-sales</id><content type="html" xml:base="https://squeaknode.org/sales/2020/08/06/definition-of-sales/">&lt;p&gt;A person or organization expressing an interest in acquiring the offered item of value is referred to as a potential buyer, prospective customer or prospect. Buying and selling are understood to be two sides of the same “coin” or transaction. Both seller and buyer engage in a process of negotiation to consummate the exchange of values. The exchange, or selling, process has implied rules and identifiable stages.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1146&quot; alt=&quot;Cat&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;It is implied that the selling process will proceed fairly and ethically so that the parties end up nearly equally rewarded. The stages of selling, and buying, involve getting acquainted, assessing each party’s need for the other’s item of value, and determining if the values to be exchanged are equivalent or nearly so, or, in buyer’s terms, “worth the price.” Sometimes, sellers have to use their own experiences when selling products with appropriate discounts.&lt;/p&gt;
-
-&lt;h2 id=&quot;management-point-of-view&quot;&gt;Management point of view&lt;/h2&gt;
-
-&lt;p&gt;From a management viewpoint it is thought of as a part of marketing, although the skills required are different. Sales often forms a separate grouping in a corporate structure, employing separate specialist operatives known as salespersons (singular: salesperson). Selling is considered by many to be a sort of persuading “art”. Contrary to popular belief, the methodological approach of selling refers to a systematic process of repetitive and measurable milestones, by which a salesman relates his or her offering of a product or service in return enabling the buyer to achieve their goal in an economic way. While the sales process refers to a systematic process of repetitive and measurable milestones, the definition of the selling is somewhat ambiguous due to the close nature of advertising, promotion, public relations, and direct marketing.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1147&quot; alt=&quot;apricot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Selling is the profession-wide term, much like marketing defines a profession. Recently, attempts have been made to clearly understand who is in the sales profession, and who is not. There are many articles looking at marketing, advertising, promotions, and even public relations as ways to create a unique transaction.&lt;/p&gt;
-
-&lt;h2 id=&quot;common-terms&quot;&gt;Common terms&lt;/h2&gt;
-
-&lt;p&gt;Two common terms used to describe a salesperson are “Farmer” and “Hunter”. The reality is that most professional sales people have a little of both. A hunter is often associated with aggressive personalities who use aggressive sales technique. In terms of sales methodology a hunter refers to a person whose focus is on bringing in and closing deals. This process is called “sales capturing”. An example is a commodity sale such as a long distance sales person, shoe sales person and to a degree a car sales person. Their job is to find and convert buyers. A sales farmer is someone who creates sales demand by activities that directly influence and alter the buying process.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1148&quot; alt=&quot;Marketing&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;systems-approach&quot;&gt;Systems approach&lt;/h2&gt;
-
-&lt;p&gt;Many believe that the focus of selling is on the human agents involved in the exchange between buyer and seller. Effective selling also requires a systems approach, at minimum involving roles that sell, enable selling, and develop sales capabilities. Selling also involves salespeople who possess a specific set of sales skills and the knowledge required to facilitate the exchange of value between buyers and sellers that is unique from marketing, advertising, etc.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1149&quot; alt=&quot;Lady bugs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Within these three tenets, the following definition of professional selling is offered by the American Society for Training and Development (ASTD):&lt;/p&gt;
-
-&lt;p&gt;“The holistic business system required to effectively develop, manage, enable, and execute a mutually beneficial, interpersonal exchange of goods and/or services for equitable value.”
-Team selling is one way to influence sales. Team selling is “a group of people representing the sales department and other functional areas in the firm, such as finance, production, and research and development”. (Spiro) Team selling came about in the 1990s through total quality management (TQM). TQM occurs when companies work to improve their customer satisfaction by constantly improving all of their operations.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Sales&quot;&gt;source&lt;/a&gt;: Wikipedia&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><category term="sales" /><summary type="html">A person or organization expressing an interest in acquiring the offered item of value is referred to as a potential buyer, prospective customer or prospect. Buying and selling are understood to be two sides of the same “coin” or transaction. Both seller and buyer engage in a process of negotiation to consummate the exchange of values. The exchange, or selling, process has implied rules and identifiable stages.</summary></entry><entry><title type="html">Sales effectiveness</title><link href="https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness/" rel="alternate" type="text/html" title="Sales effectiveness" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-02T00:00:00+00:00</updated><id>https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness</id><content type="html" xml:base="https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness/">&lt;p&gt;Sales effectiveness refers to the ability of a company’s sales professionals to “win” at each stage of the customer’s buying process, and ultimately earn the business on the right terms and in the right timeframe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/History_of_marketing&quot;&gt;source&lt;/a&gt;: Wikipedia&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><category term="marketing" /><summary type="html">The beginnings of digital marketing technology can be traced back to the 1980’s, when computers became sophisticated enough to store huge volumes of customer information. For a brief moment, no one knew what would happen in digital marketing, but by the 90’s it all became clear.</summary></entry><entry><title type="html">Sales effectiveness</title><link href="https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness/" rel="alternate" type="text/html" title="Sales effectiveness" /><published>2020-08-02T00:00:00+00:00</published><updated>2020-08-02T00:00:00+00:00</updated><id>https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness</id><content type="html" xml:base="https://squeaknode.org/sales/tips/2020/08/02/sales-effectiveness/">&lt;p&gt;Sales effectiveness refers to the ability of a company’s sales professionals to “win” at each stage of the customer’s buying process, and ultimately earn the business on the right terms and in the right timeframe.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/random/1500x1146&quot; alt=&quot;American River&quot; /&gt;&lt;/p&gt;
 
