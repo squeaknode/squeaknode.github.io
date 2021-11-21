@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://squeaknode.org/sitemap.xml
+Sitemap: squeaknode.org/sitemap.xml
