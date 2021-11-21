@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Squeaknode website
+title: Squeaknode
 url: "https://squeaknode.org"
 baseurl:
 google_analytics_key:
@@ -9,10 +9,8 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-title: Squeaknode
 tagline: Peer-to-peer social media with Bitcoin monetization
 description: Squeaknode is a decentralized social media app that uses Bitcoin payments on the lightning network.
-url: squeaknode.org
 author:
   name:
   email:
