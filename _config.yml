@@ -9,12 +9,17 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Website for squeaknode project.
+title: Squeaknode
+tagline: Peer-to-peer social media with Bitcoin monetization
+description: Squeaknode is a decentralized social media app that uses Bitcoin payments on the lightning network.
+url: squeaknode.org
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: squeaknode
+twitter:
+  username: squeaknode
+logo: /siteicon.png
 social:
   name: Squeaknode website
   links:
