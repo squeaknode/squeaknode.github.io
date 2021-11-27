@@ -3,8 +3,8 @@
     link: /install/
   - name: Blog
     link: /blog/
-  - name: About
-    link: /about/
+  - name: Donate
+    link: /donate/
   - name: Contact
     link: /contact/
 - links:
