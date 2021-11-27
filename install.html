@@ -1,0 +1,22 @@
+---
+title: Install
+heading:
+description:
+platforms:
+  - name: Umbrel
+    website: https://getumbrel.com/
+  - name: Citadel
+    website: https://runcitadel.space/
+---
+{% if page.platforms %}
+	<p>You can install squeaknode on any of these platforms</p>
+	<ul>
+	  {% for item in page.platforms %}
+	    <li><a href={{ item.website }}>{{ item.name }}</a></li>
+	  {% endfor %}
+	  <li>more coming soon...</li>
+	</ul>
+
+	<p>Or you can install squeaknode manually following the <a href="https://github.com/yzernik/squeaknode/blob/master/README.md#installation">README</a></p>
+
+{% endif %}
