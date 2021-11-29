@@ -1,12 +1,12 @@
 - links:
   - name: Install
     link: /install/
+  - name: Code
+    link: /code/
   - name: Blog
     link: /blog/
   - name: Donate
     link: /donate/
-  - name: Contact
-    link: /contact/
 - links:
   - name: Docs
     link: /
