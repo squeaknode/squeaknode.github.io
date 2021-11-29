@@ -2,6 +2,10 @@
   link: /install/
   new_window: false
   highlight: false
+- name: Code
+  link: /code/
+  new_window: false
+  highlight: false
 - name: Blog
   link: /blog/
   new_window: false

@@ -1,6 +1,8 @@
 - links:
   - name: Install
     link: /install/
+  - name: Code
+    link: /code/
   - name: Blog
     link: /blog/
   - name: Donate
