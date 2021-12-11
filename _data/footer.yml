@@ -8,10 +8,6 @@
   - name: Donate
     link: /donate/
 - links:
-  - name: Docs
-    link: /
-    new_window: true
-- links:
   - name: Twitter
     link: https://twitter.com/squeaknode/
     social_icon: Twitter
