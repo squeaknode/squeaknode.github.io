@@ -13,7 +13,7 @@
     social_icon: Twitter
     new_window: true
   - name: Github
-    link: https://github.com/yzernik/squeaknode
+    link: https://github.com/squeaknode/squeaknode
     social_icon: Github
     new_window: true
   - name: RSS
