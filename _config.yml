@@ -21,7 +21,7 @@ logo: /siteicon.png
 social:
   name: Squeaknode website
   links:
-    - https://github.com/yzernik/squeaknode
+    - https://github.com/squeaknode/squeaknode
 
 # -----
 # Build
