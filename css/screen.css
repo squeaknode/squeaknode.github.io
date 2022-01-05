@@ -1,5 +1,5 @@
 @charset "UTF-8";
-footer .footer-columns, .contact-box, .staff, .plans { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
+footer .footer-columns, .contact-box, .staff { display: -webkit-box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; }
 
 html { background: #2b2b40; }
 
@@ -95,31 +95,15 @@ blockquote:before { color: #ccc; content: open-quote; font-size: 4em; line-heigh
 
 .editor-link .btn:hover { background-color: #f4d525; color: #333; }
 
-.plans { -webkit-flex-flow: wrap; -moz-flex-flow: wrap; -ms-flex-flow: wrap; flex-flow: wrap; padding: 50px 0 30px 0; }
+.platforms { color: #666; }
 
-.plans .plan { list-style: none; padding: 0; margin: 0 10px 50px 10px; text-align: center; border: 1px solid #eee; border-radius: 5px; box-shadow: 0px 0px 10px #eee; width: 100%; }
+@media (min-width: 768px) { .platforms { columns: 2; -webkit-columns: 2; -moz-columns: 2; } }
 
-.plans .plan .highlighted { font-size: 1.2em; }
+.platforms div { break-inside: avoid; padding: 25px 0; }
 
-.plans .plan .pricing-cta { padding: 0; }
+.platforms dt { font-weight: bold; margin: 0 0 5px 0; }
 
-.plans .plan .pricing-cta a { display: block; box-sizing: border-box; padding: 20px 0; border-radius: 0 0 2px 2px; border: 0; }
-
-@media (min-width: 768px) { .plans .plan { -webkit-flex: 1; flex: 1; } }
-
-.plans .plan li { border-top-right-radius: 5px; border-top-left-radius: 5px; padding: 20px 0; }
-
-.plans .plan li h3 { padding: 0; margin: 0; color: #fff; font-weight: normal; }
-
-.faq { color: #666; }
-
-@media (min-width: 768px) { .faq { columns: 2; -webkit-columns: 2; -moz-columns: 2; } }
-
-.faq div { break-inside: avoid; padding: 25px 0; }
-
-.faq dt { font-weight: bold; margin: 0 0 5px 0; }
-
-.faq dd { padding: 0; margin: 0; }
+.platforms dd { padding: 0; margin: 0; }
 
 .staff { padding: 0; list-style: none; -webkit-flex-flow: wrap; -moz-flex-flow: wrap; -ms-flex-flow: wrap; flex-flow: wrap; text-align: center; }
 
