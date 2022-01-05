@@ -1,7 +1,6 @@
 ---
-title: PGP
-heading:
-description:
+layout: null
+sitemap: false
 ---
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
