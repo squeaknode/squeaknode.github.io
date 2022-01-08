@@ -1,0 +1,645 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Trustless Lightning Payments for Content | Squeaknode</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Trustless Lightning Payments for Content" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="The existence of the Lightning Network enables new types of online communities where participation and access to content is dependent on individual users making Bitcoin micropayments. These new communities can operate without a central authority, and without a middleman taking a cut of the profit." />
+<meta property="og:description" content="The existence of the Lightning Network enables new types of online communities where participation and access to content is dependent on individual users making Bitcoin micropayments. These new communities can operate without a central authority, and without a middleman taking a cut of the profit." />
+<link rel="canonical" href="https://squeaknode.org/lightning/ptlc/bitcoin/2022/01/07/trustless-lightning/" />
+<meta property="og:url" content="https://squeaknode.org/lightning/ptlc/bitcoin/2022/01/07/trustless-lightning/" />
+<meta property="og:site_name" content="Squeaknode" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-07T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Trustless Lightning Payments for Content" />
+<meta name="twitter:site" content="@squeaknode" />
+<meta name="twitter:creator" content="@squeaknode" />
+<script type="application/ld+json">
+{"url":"https://squeaknode.org/lightning/ptlc/bitcoin/2022/01/07/trustless-lightning/","@type":"BlogPosting","headline":"Trustless Lightning Payments for Content","dateModified":"2022-01-07T00:00:00+00:00","datePublished":"2022-01-07T00:00:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://squeaknode.org/lightning/ptlc/bitcoin/2022/01/07/trustless-lightning/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://squeaknode.org/siteicon.png"}},"description":"The existence of the Lightning Network enables new types of online communities where participation and access to content is dependent on individual users making Bitcoin micropayments. These new communities can operate without a central authority, and without a middleman taking a cut of the profit.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<link type="application/atom+xml" rel="alternate" href="https://squeaknode.org/feed.xml" title="Squeaknode" />
+
+		<link rel="stylesheet" href="/css/screen.css">
+		<link rel="icon" type="image/png" href="/favicon.png">
+
+		
+		        <!-- Global site tag (gtag.js) - Google Analytics -->
+			<script
+			  async
+			  src="https://www.googletagmanager.com/gtag/js?id=G-N11RJVGDE9"
+			></script>
+			<script>
+			  window.dataLayer = window.dataLayer || [];
+			  function gtag() {
+			    dataLayer.push(arguments);
+			  }
+			  gtag("js", new Date());
+
+			  gtag("config", "G-N11RJVGDE9");
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="company-name"><a href="/"><img src="/images/logo.svg" alt="Squeaknode Logo" height="99" /></a></div>
+				<nav>
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
+	
+		
+		
+
+		
+		<a href="/install/
+" class="" >Install</a>
+	
+		
+		
+
+		
+		<a href="/code/
+" class="" >Code</a>
+	
+		
+		
+
+		
+		<a href="/blog/
+" class="" >Blog</a>
+	
+		
+		
+
+		
+		<a href="/donate/
+" class="" >Donate</a>
+	
+</nav>
+
+			</div>
+		</header>
+		<div class="content">
+	<section class="page">
+		<div class="container ">
+			
+				<h2>Trustless Lightning Payments for Content</h2>
+			
+			
+			<div class="blog-post text-container">
+	<p class="post-details">
+	
+		<span class="blog-filter">
+			<a href="/category/lightning/">Lightning</a>
+		</span>
+	
+		<span class="blog-filter">
+			<a href="/category/ptlc/">Ptlc</a>
+		</span>
+	
+		<span class="blog-filter">
+			<a href="/category/bitcoin/">Bitcoin</a>
+		</span>
+	
+	<span class="post-date">January 07, 2022</span>
+</p>
+
+
+	<p class="editor-link"><a href="cloudcannon:collections/_posts/2022-01-07-trustless-lightning.md" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
+	<div class="post-content">
+		<p>The existence of the Lightning Network enables new types of online communities
+where participation and access to content is dependent on individual users making
+Bitcoin micropayments. These new communities can operate without a central
+authority, and without a middleman taking a cut of the profit.</p>
+
+<p>In this post, I will briefly describe the weaknesses of the existing models
+for Lightning monetization, and how these problems will be solved when PTLC
+payment channels are the standard in Lightning Network.</p>
+
+<h4 id="how-lightning-incentivizes-content">How Lightning incentivizes content</h4>
+
+<p>If we imagine a world where social media is decentralized, content will no
+longer be hosted by large companies like Twitter, Facebook, Spotify, and
+Youtube. Instead, we will see individuals and independent hosting providers
+relaying and aggregating content that is signed cryptographically by individual
+users. This raises the question of how will these relays/aggregators be
+incentivized to host content. Lightning payments are the obvious answer.</p>
+
+<h4 id="what-is-wrong-with-the-tipping-model">What is wrong with the tipping model?</h4>
+
+<p>There are currently attempts to create models of monetization that use
+Lightning network to reward content creators:</p>
+
+<ul>
+  <li>Value-For-Value (Used in Podcasting 2.0 apps like Fountain)</li>
+  <li>Tipping (Used in Zion)</li>
+</ul>
+
+<p>These apps use a voluntary payment model, where any user can access the
+content, and then decide how much they want to pay in tips to reward the
+content creator.</p>
+
+<p>This leads to a situation where the majority of users are consuming the
+content for free, and a small generous minority of users is generating all
+of the revenue for the content creator. The revenue of the content creator
+is totally dependent on the generosity and altruism of their consumers.</p>
+
+<p>It is the digital equivalent of “busking” on a sidewalk, and hoping that people
+will drop a few coins in your hat.</p>
+
+<h4 id="moving-to-a-pay-for-content-model">Moving to a pay for content model</h4>
+
+<p>A better, fairer model would be one where the consumer is required to make a
+payment to get access to the content.</p>
+
+<p>A naive approach to accomplish this would be to simply encrypt the content,
+and then create a Lightning invoice with the decryption key as the invoice
+preimage (using HTLCs), and share the invoice with the consumer. Then, when the consumer
+pays the invoice, they would obtain the decryption key, and use it to unlock
+the content.</p>
+
+<!-- In the current implementation of Lightning in LND (using HTLCs), the preimage -->
+<!-- would be specified in the `r_preimage` field of the `AddInvoice` RPC method. -->
+
+<p><img src="/images/htlc-example-3.png" alt="HTLC Example" /></p>
+
+<p>Unfortunately, this approach requires the consumer to trust the honesty of the
+content seller. A malicious seller could create an invoice using an invalid
+decryption key as the preimage. The buyer would make the Lightning payment, and
+only realize after the payment that they got an invalid decryption key. The
+buyer has no way to verify the validity of the invoice until it is too late,
+and they have already lost their funds.</p>
+
+<p>This model of monetization can work if the buyer is able to trust the seller.
+This might be true if the seller is a large, reputable institution, but this
+model breaks down if we try to extend it to a peer-to-peer decentralized
+network, where all connections are assumed to be trustless.</p>
+
+<h4 id="making-payments-trustless-with-ptlcs">Making payments trustless with PTLCs</h4>
+
+<p>Fortunately, there is a way to make the payment trustless for both the buyer
+and the seller, but it requires that Lightning use PTLC payment channels.</p>
+
+<p>With PTLCs, the seller specifies a 32-byte scalar value (<code class="language-plaintext highlighter-rouge">s</code>) as the “preimage”
+at the creation-time of the invoice. When the buyer decodes the invoice payment
+string, they will obtain the payment point (<code class="language-plaintext highlighter-rouge">p = s*G</code>). The buyer will only
+obtain the “preimage” <code class="language-plaintext highlighter-rouge">s</code> after the payment is settled.</p>
+
+<p>So now that we know that PTLC invoices use elliptic curve points, we can
+take advantage of the distributive property of points on elliptic curves:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(s1 + s2)*G = s1*G + s2*G
+</code></pre></div></div>
+
+<p>where <code class="language-plaintext highlighter-rouge">s1</code> and <code class="language-plaintext highlighter-rouge">s2</code> are scalars, and <code class="language-plaintext highlighter-rouge">G</code> is an elliptic curve.</p>
+
+<p>The basic idea for selling content is as follows:</p>
+
+<ul>
+  <li>Alice has a piece of content she wants to be sellable.</li>
+  <li>Alice generates a scalar value <code class="language-plaintext highlighter-rouge">s1</code> to use as a symmetric encryption/decryption key, and encrypts the content.</li>
+  <li>Alice calculates the point <code class="language-plaintext highlighter-rouge">p1</code> on an elliptic curve <code class="language-plaintext highlighter-rouge">G</code> by calculating <code class="language-plaintext highlighter-rouge">p1 = s1*G</code>.</li>
+  <li>Alice makes <code class="language-plaintext highlighter-rouge">p1</code> publicly available for anyone interested in buying the content.</li>
+  <li>Alice shares the encrypted content with a relay named Carol.</li>
+  <li>Bob downloads the encrypted content from Carol, and requests an invoice to unlock the content.</li>
+  <li>Carol generates a new scalar value <code class="language-plaintext highlighter-rouge">s2</code>, and creates a <em>PTLC</em> Lightning invoice with <code class="language-plaintext highlighter-rouge">s1 + s2</code> as the preimage.</li>
+  <li>Carol sends Bob <code class="language-plaintext highlighter-rouge">s2</code> and the Lightning invoice as a payment request string.</li>
+  <li>Bob decodes the payment request string to get the payment point of the invoice, call it <code class="language-plaintext highlighter-rouge">p3</code>.</li>
+  <li>Bob calculates <code class="language-plaintext highlighter-rouge">s2*G</code>. If it is equal to <code class="language-plaintext highlighter-rouge">p3 - p1</code>, then Bob knows that the invoice is valid.</li>
+  <li>Bob pays the Lightning invoice, and gets the value of <code class="language-plaintext highlighter-rouge">s1 + s2</code> as the preimage.</li>
+  <li>Bob calculates <code class="language-plaintext highlighter-rouge">s1 = (s1 + s2) - s2</code> to get the decryption key, and decrypts the content.</li>
+</ul>
+
+<p>If Carol tries to give Bob an invalid invoice, Bob will know before he pays the invoice.</p>
+
+<p>The above example assumes that Bob is able to trust that the value of <code class="language-plaintext highlighter-rouge">p1</code> is valid.</p>
+
+<p><img src="/images/ptlc-example-2.png" alt="PTLC Example" /></p>
+
+<p>Now any node in the network can relay content from any creator, and earn a profit by
+selling it trustlessly to any consumer. The consumer does not have to trust that the
+relay is an honest actor, and vice versa. The only requirement is that the payment
+point generated by the original content creator must be publicly known and trusted.</p>
+
+<h4 id="payment-for-content-with-squeak-protocol">Payment for content with Squeak Protocol</h4>
+
+<p>The <a href="https://github.com/squeaknode/squeak/blob/master/docs/PROTOCOL.md">Squeak Protocol</a>
+is a social media protocol that utilizes the properties of PTLCs on
+lightning to create a trustless, decentralized alternative to Twitter.</p>
+
+<p>With the Squeak Protocol, any user can download an encrypted post (called a “squeak”),
+and verify several properties of the squeak:</p>
+
+<p>1) The squeak has a unique hash that is the same across all nodes
+2) The squeak was created and signed by a certain person.
+3) The squeak was created after a certain time.
+4) The squeak was created in reply to another squeak (or not).
+5) The squeak was encrypted using a scalar that corresponds to a certain
+elliptic curve point.</p>
+
+<p>After these properties have been verified, the consumer can request an invoice from
+the seller that will unlock the decrypted content of the squeak (after payment):</p>
+
+<p><img src="/images/locked-squeak.png" alt="Locked Squeak" /></p>
+
+<p>If the consumer then clicks the “buy” button, they will be presented with an offer
+that they received from the seller:</p>
+
+<p><img src="/images/received-offer.png" alt="Received Offer" /></p>
+
+<p>Then, if the consumer decides that the squeak is worth the price, they can pay the
+invoice to unlock the squeak:</p>
+
+<p><img src="/images/unlocked-squeak.png" alt="Received Offer" /></p>
+
+<p>The consumer now has a copy of the unlocked squeak on their own node, and
+they can now re-sell the squeak to other nodes in the network.</p>
+
+<h4 id="how-squeaks-work-under-the-hood">How squeaks work under the hood</h4>
+
+<p>There are two components in a squeak:</p>
+
+<ul>
+  <li>The squeak header</li>
+  <li>The external fields outside the header.</li>
+</ul>
+
+<p>A squeak header has the following fields:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field Size</th>
+      <th>Description</th>
+      <th>Data type</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4</td>
+      <td>nVersion</td>
+      <td>int32_t</td>
+      <td>Squeak version information</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>hashEncContent</td>
+      <td>char[32]</td>
+      <td>The hash value of the encrypted content of the squeak</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>hashReplySqk</td>
+      <td>char[32]</td>
+      <td>The hash value of the previous squeak in the conversation thread or null bytes if squeak is not a reply</td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>hashBlock</td>
+      <td>char[32]</td>
+      <td>The hash value of the latest block in the blockchain</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>nBlockHeight</td>
+      <td>int32_t</td>
+      <td>The height of the latest block in the blockchain</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>pubKey</td>
+      <td>char[33]</td>
+      <td>Contains the public key of the author</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>recipientPubKey</td>
+      <td>char[33]</td>
+      <td>Contains the public key of the recipient if squeak is a private message</td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>paymentPoint</td>
+      <td>char[33]</td>
+      <td>The payment point of the squeak derived from the decryption key on the secp256k1 curve.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>iv</td>
+      <td>char[16]</td>
+      <td>Random bytes used for the initialization vector</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>nTime</td>
+      <td>uint32_t</td>
+      <td>A timestamp recording when this squeak was created</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>nNonce</td>
+      <td>uint32_t</td>
+      <td>The nonce used to generate this squeak</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There are also external fields outside the header:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field Size</th>
+      <th>Description</th>
+      <th>Data type</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1136</td>
+      <td>encContent</td>
+      <td>char[1136]</td>
+      <td>Encrypted content</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>sig</td>
+      <td>char[64]</td>
+      <td>Signature over the squeak header by the author</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>There is also a squeak hash, which is derived from the bytes of the squeak header using SHA256.</p>
+
+<h3 id="how-a-squeak-is-created">How a squeak is created</h3>
+
+<p>When a user creates a squeak, the following happens:</p>
+
+<ul>
+  <li>An encryption/decryption key is generated as a random scalar value.</li>
+  <li>A random initialization vector is generated.</li>
+  <li>The post content is encrypted with a symmetric-key algorithm using the encryption key and the initialization vector.</li>
+  <li>A hash is calculated over the encrypted ciphertext.</li>
+  <li>The payment point is calculated from the encryption key scalar value on an elliptic curve.</li>
+  <li>A new nonce is generated.</li>
+  <li>The public key of the author is derived from their private key.</li>
+</ul>
+
+<p>Also,</p>
+
+<ul>
+  <li>The latest block height and block hash are fetched from the Bitcoin blockchain.</li>
+  <li>The hash of another squeak (to make a reply) can also be provided by the author.</li>
+</ul>
+
+<p>All of these values are used to populate the squeak header. After the header is created:</p>
+
+<ul>
+  <li>The squeak hash is calculated from the header.</li>
+  <li>The private key of the author is used to sign the squeak hash.</li>
+  <li>The signature is then attached to the squeak.</li>
+</ul>
+
+<p>The <a href="https://github.com/squeaknode/squeak/blob/fde192b8b59b59090c6d2eb39f87d6b41b15c05e/squeak/core/__init__.py#L415-L462">MakeSqueak</a> function looks like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">MakeSqueak</span><span class="p">(</span>
+        <span class="n">private_key</span><span class="p">:</span> <span class="n">SqueakPrivateKey</span><span class="p">,</span>
+        <span class="n">content</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">,</span>
+        <span class="n">block_height</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+        <span class="n">block_hash</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">,</span>
+        <span class="n">timestamp</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+        <span class="n">reply_to</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">bytes</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+        <span class="n">recipient</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">SqueakPublicKey</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="s">"""Create a new squeak.
+    Returns a tuple of (squeak, secret_key)
+    private_key (SqueakPrivatekey)
+    content (bytes)
+    block_height (int)
+    block_hash (bytes)
+    timestamp (int)
+    reply_to (Optional[bytes])
+    recipient (Optional[SqueakPublickey])
+    """</span>
+    <span class="n">secret_key</span> <span class="o">=</span> <span class="n">generate_secret_key</span><span class="p">()</span>
+    <span class="n">data_key</span> <span class="o">=</span> <span class="n">sha256</span><span class="p">(</span><span class="n">secret_key</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">recipient</span><span class="p">:</span>
+        <span class="n">shared_key</span> <span class="o">=</span> <span class="n">private_key</span><span class="p">.</span><span class="n">get_shared_key</span><span class="p">(</span><span class="n">recipient</span><span class="p">)</span>
+        <span class="n">data_key</span> <span class="o">=</span> <span class="n">xor_bytes</span><span class="p">(</span><span class="n">data_key</span><span class="p">,</span> <span class="n">shared_key</span><span class="p">)</span>
+    <span class="n">initialization_vector</span> <span class="o">=</span> <span class="n">generate_initialization_vector</span><span class="p">()</span>
+    <span class="n">enc_content</span> <span class="o">=</span> <span class="n">EncryptContent</span><span class="p">(</span><span class="n">data_key</span><span class="p">,</span> <span class="n">initialization_vector</span><span class="p">,</span> <span class="n">content</span><span class="p">)</span>
+    <span class="n">hash_enc_content</span> <span class="o">=</span> <span class="n">HashEncryptedContent</span><span class="p">(</span><span class="n">enc_content</span><span class="p">)</span>
+    <span class="n">payment_point_encoded</span> <span class="o">=</span> <span class="n">payment_point_bytes_from_scalar_bytes</span><span class="p">(</span><span class="n">secret_key</span><span class="p">)</span>
+    <span class="n">nonce</span> <span class="o">=</span> <span class="n">generate_nonce</span><span class="p">()</span>
+    <span class="n">author_public_key</span> <span class="o">=</span> <span class="n">private_key</span><span class="p">.</span><span class="n">get_public_key</span><span class="p">()</span>
+    <span class="n">squeak</span> <span class="o">=</span> <span class="n">CSqueak</span><span class="p">(</span>
+        <span class="n">hashEncContent</span><span class="o">=</span><span class="n">hash_enc_content</span><span class="p">,</span>
+        <span class="n">hashReplySqk</span><span class="o">=</span><span class="n">reply_to</span> <span class="ow">or</span> <span class="sa">b</span><span class="s">'</span><span class="se">\x00</span><span class="s">'</span><span class="o">*</span><span class="n">HASH_LENGTH</span><span class="p">,</span>
+        <span class="n">hashBlock</span><span class="o">=</span><span class="n">block_hash</span><span class="p">,</span>
+        <span class="n">nBlockHeight</span><span class="o">=</span><span class="n">block_height</span><span class="p">,</span>
+        <span class="n">pubKey</span><span class="o">=</span><span class="n">author_public_key</span><span class="p">.</span><span class="n">to_bytes</span><span class="p">(),</span>
+        <span class="n">recipientPubKey</span><span class="o">=</span><span class="n">recipient</span><span class="p">.</span><span class="n">to_bytes</span><span class="p">()</span> <span class="k">if</span> <span class="n">recipient</span> <span class="k">else</span> <span class="sa">b</span><span class="s">'</span><span class="se">\x00</span><span class="s">'</span><span class="o">*</span><span class="n">PUB_KEY_LENGTH</span><span class="p">,</span>
+        <span class="n">paymentPoint</span><span class="o">=</span><span class="n">payment_point_encoded</span><span class="p">,</span>
+        <span class="n">iv</span><span class="o">=</span><span class="n">initialization_vector</span><span class="p">,</span>
+        <span class="n">nTime</span><span class="o">=</span><span class="n">timestamp</span><span class="p">,</span>
+        <span class="n">nNonce</span><span class="o">=</span><span class="n">nonce</span><span class="p">,</span>
+        <span class="n">encContent</span><span class="o">=</span><span class="n">enc_content</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">sig</span> <span class="o">=</span> <span class="n">SignSqueak</span><span class="p">(</span><span class="n">private_key</span><span class="p">,</span> <span class="n">squeak</span><span class="p">)</span>
+    <span class="n">squeak</span><span class="p">.</span><span class="n">SetSignature</span><span class="p">(</span><span class="n">sig</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">squeak</span><span class="p">,</span> <span class="n">secret_key</span>
+</code></pre></div></div>
+
+<h3 id="properties-of-a-squeak">Properties of a squeak</h3>
+
+<p>After a squeak is created, it can be shared and validated on any node.</p>
+
+<p>A validated squeak has the following properies:</p>
+
+<ul>
+  <li>The squeak hash is a unique identifier for the squeak, because it is derived from the immutable fields of the squeak header.</li>
+  <li>The pubkey embedded in the squeak belongs to the author of the squeak (proved by the signature).</li>
+  <li>None of the fields in the header were modified after being signed by the author (that would change the hash, and the signature would become invalid if that happened).</li>
+  <li>The encrypted content field was not modified after being signed by the author (that would also result in the signature becoming invalid).</li>
+  <li>The Bitcoin block hash and block height (if valid) prove that the squeak was created after that block was mined.</li>
+</ul>
+
+<h3 id="how-a-user-interacts-with-a-squeak">How a user interacts with a squeak</h3>
+
+<p>For example, if Alice authored a squeak, and Bob obtained a copy of the squeak:</p>
+
+<ul>
+  <li>Bob will know that the squeak was authored by Alice.</li>
+  <li>Bob will know that the squeak was created after a certain time (given by the block hash).</li>
+  <li>Bob will know if the squeak is a reply to another squeak.</li>
+</ul>
+
+<p>However, because Bob does not have the decryption key:</p>
+
+<ul>
+  <li>Bob will not be able to see the content of the squeak.</li>
+</ul>
+
+<h3 id="how-a-user-unlocks-the-content-of-a-squeak">How a user unlocks the content of a squeak</h3>
+
+<p>Now Bob has a choice to make. Is he interested in reading the squeak that Alice authored, given everything he knows about the squeak?</p>
+
+<p>If Bob wants to unlock the content, he can send a message to all of his peers in the network expressing interest in buying the decryption key for the squeak.</p>
+
+<p>Bob’s peers in the network (only those who already have a copy of the decryption key) will respond to Bob by sending him invoices as described in the earlier section.</p>
+
+<p>Bob can now browse through the offers, and make a payment to any peer that offered him a valid invoice. Bob knows which invoices are valid because he can validate against <code class="language-plaintext highlighter-rouge">paymentPoint</code> field of the squeak header, using the elliptic curve math described earlier.</p>
+
+<p>When Bob makes a Lightning payment to one of the sellers, he will obtain the preimage of the invoice. This preimage can be used to get the decryption key:</p>
+
+<ul>
+  <li>The preimage is <code class="language-plaintext highlighter-rouge">s1 + s2</code>, as described earlier.</li>
+  <li>Bob already knows <code class="language-plaintext highlighter-rouge">s2</code>, because the seller sent it to him.</li>
+  <li>Bob calculates <code class="language-plaintext highlighter-rouge">s1 = (s1 + s2) - s2</code> to obtain the decryption key.</li>
+  <li>Bob can then decrypt the content of the squeak.</li>
+</ul>
+
+<p>Now Bob can read the content of the squeak!</p>
+
+<p>The <a href="https://github.com/squeaknode/squeak/blob/fde192b8b59b59090c6d2eb39f87d6b41b15c05e/squeak/core/__init__.py#L242-L261">GetDecryptedContent</a> method looks like this:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">def</span> <span class="nf">GetDecryptedContent</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span>
+            <span class="n">secret_key</span><span class="p">:</span> <span class="nb">bytes</span><span class="p">,</span>
+            <span class="n">authorPrivKey</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">SqueakPrivateKey</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+            <span class="n">recipientPrivKey</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="n">SqueakPrivateKey</span><span class="p">]</span> <span class="o">=</span> <span class="bp">None</span><span class="p">,</span>
+    <span class="p">):</span>
+        <span class="s">"""Return the decrypted content."""</span>
+        <span class="n">CheckSqueakSecretKey</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">secret_key</span><span class="p">)</span>
+        <span class="n">data_key</span> <span class="o">=</span> <span class="n">sha256</span><span class="p">(</span><span class="n">secret_key</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="p">.</span><span class="n">is_private_message</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">recipientPrivKey</span><span class="p">:</span>
+                <span class="n">shared_key</span> <span class="o">=</span> <span class="n">recipientPrivKey</span><span class="p">.</span><span class="n">get_shared_key</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">GetPubKey</span><span class="p">())</span>
+            <span class="k">elif</span> <span class="n">authorPrivKey</span><span class="p">:</span>
+                <span class="n">shared_key</span> <span class="o">=</span> <span class="n">authorPrivKey</span><span class="p">.</span><span class="n">get_shared_key</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">GetRecipientPubKey</span><span class="p">())</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="nb">Exception</span><span class="p">(</span><span class="s">"Author or Recipient private key required to get decrypted content of private squeak"</span><span class="p">)</span>
+            <span class="n">data_key</span> <span class="o">=</span> <span class="n">xor_bytes</span><span class="p">(</span><span class="n">data_key</span><span class="p">,</span> <span class="n">shared_key</span><span class="p">)</span>
+        <span class="n">iv</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">iv</span>
+        <span class="n">ciphertext</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">encContent</span>
+        <span class="k">return</span> <span class="n">decrypt_content</span><span class="p">(</span><span class="n">data_key</span><span class="p">,</span> <span class="n">iv</span><span class="p">,</span> <span class="n">ciphertext</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h4 id="try-it-out-for-yourself">Try it out for yourself</h4>
+
+<p>There is a working implementation of the core Squeak Protocol as a Python library here: https://github.com/squeaknode/squeak</p>
+
+<p>And there is an implementation of a full node running the Squeak Protocol here: https://github.com/squeaknode/squeaknode</p>
+
+
+		<div class="author">
+			
+			
+			<div class="square-image"><img src="
+" alt=""/></div>
+			<p class="blurb"></p>
+		</div>
+
+		<div class="blog-navigation">
+			
+				<a class="prev" href="/squeaknode/guide/2021/11/18/getting-started/
+">&laquo; Getting started with squeaknode</a>
+			
+			
+		</div>
+
+		
+	</div>
+</div>
+
+		</div>
+	</section>
+</div>
+
+		<footer>
+			<div class="container">
+				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
+				<div class="footer-columns">
+					
+					<ul class="footer-links">
+						
+							<li><a  href="/install/
+" >
+								
+								Install</a></li>
+						
+							<li><a  href="/code/
+" >
+								
+								Code</a></li>
+						
+							<li><a  href="/blog/
+" >
+								
+								Blog</a></li>
+						
+							<li><a  href="/donate/
+" >
+								
+								Donate</a></li>
+						
+					</ul>
+					
+					<ul class="footer-links">
+						
+							<li><a target="_blank" href="https://twitter.com/squeaknode/
+" class="Twitter-icon">
+								
+									
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.11 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z" /></svg>
+	
+
+								
+								Twitter</a></li>
+						
+							<li><a target="_blank" href="https://github.com/squeaknode/squeaknode
+" class="Github-icon">
+								
+									
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+	
+
+								
+								Github</a></li>
+						
+							<li><a  href="/feed.xml
+" class="RSS-icon">
+								
+									
+		<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+
+
+								
+								RSS</a></li>
+						
+					</ul>
+					
+				</div>
+				<p class="copyright"><a href="https://cloudcannon.com/">Template by CloudCannon</a></p>
+			</div>
+		</footer>
+		<script>
+			document.getElementById("open-nav").onclick = function () {
+				document.body.classList.toggle("nav-open");
+				return false;
+			};
+		</script>
+	</body>
+</html>
