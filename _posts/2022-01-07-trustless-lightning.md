@@ -3,21 +3,11 @@
 title: "Trustless Lightning Payments for Content"
 subtitle: "How PTLC payment channels in Lightning enable decentralized social media."
 date: 2022-01-07T00:00:00+00:00
-authors:
-  - name: Jonathan Zernik
-    github: yzernik
-    twitter: yzernik
-tags:
+author_staff_member: yzernik
+categories:
   - "Lightning"
   - "PTLC"
   - "Bitcoin"
-
-images:
-  - "/post-data/trustless-lightning-payments/ptlc-example-1.png"
-
-appearedfirston:
-    label: "squeaknode.org"
-    url: "TODO"
 
 ---
 
@@ -75,7 +65,7 @@ the content.
 <!-- In the current implementation of Lightning in LND (using HTLCs), the preimage -->
 <!-- would be specified in the `r_preimage` field of the `AddInvoice` RPC method. -->
 
-![HTLC Example](images/htlc-example-3.png)
+![HTLC Example]({{ site.baseurl }}/images/htlc-example-3.png)
 
 Unfortunately, this approach requires the consumer to trust the honesty of the
 content seller. A malicious seller could create an invoice using an invalid
@@ -127,7 +117,7 @@ If Carol tries to give Bob an invalid invoice, Bob will know before he pays the 
 
 The above example assumes that Bob is able to trust that the value of `p1` is valid.
 
-![PTLC Example](images/ptlc-example-2.png)
+![PTLC Example]({{ site.baseurl }}/images/ptlc-example-2.png)
 
 Now any node in the network can relay content from any creator, and earn a profit by
 selling it trustlessly to any consumer. The consumer does not have to trust that the
@@ -154,19 +144,19 @@ elliptic curve point.
 After these properties have been verified, the consumer can request an invoice from
 the seller that will unlock the decrypted content of the squeak (after payment):
 
-![Locked Squeak](images/locked-squeak.png)
+![Locked Squeak]({{ site.baseurl }}/images/locked-squeak.png)
 
 
 If the consumer then clicks the "buy" button, they will be presented with an offer
 that they received from the seller:
 
-![Received Offer](images/received-offer.png)
+![Received Offer]({{ site.baseurl }}/images/received-offer.png)
 
 
 Then, if the consumer decides that the squeak is worth the price, they can pay the
 invoice to unlock the squeak:
 
-![Received Offer](images/unlocked-squeak.png)
+![Received Offer]({{ site.baseurl }}/images/unlocked-squeak.png)
 
 The consumer now has a copy of the unlocked squeak on their own node, and
 they can now re-sell the squeak to other nodes in the network.
