@@ -3,6 +3,8 @@
     link: /install/
   - name: Code
     link: /code/
+  - name: Nodes
+    link: /nodes/
   - name: Blog
     link: /blog/
   - name: Donate

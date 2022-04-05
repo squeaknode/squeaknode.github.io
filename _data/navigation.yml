@@ -6,6 +6,10 @@
   link: /code/
   new_window: false
   highlight: false
+- name: Nodes
+  link: /nodes/
+  new_window: false
+  highlight: false
 - name: Blog
   link: /blog/
   new_window: false
